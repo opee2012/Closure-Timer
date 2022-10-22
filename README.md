@@ -21,3 +21,6 @@ borthj2@winthrop.edu
 
 * Empirically observe how far can you push the iterative method vs the recursive method?
     * You can push the iterative method as far as you would like as it has an 'n' time efficiency. For the recursion method, you can only push it to about 45 sequences until it starts to really takes time to calculate as it has a '2^n' time efficiency.
+
+![Recursion Graph](recursion-graph.png)
+![Iteration Graph](iterative-graph.png)
