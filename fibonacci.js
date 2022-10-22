@@ -58,7 +58,8 @@ function MyTimer() {
 var myArgs = process.argv.slice(2);
 
 if (myArgs[0] == '-h' || myArgs[0] == '--help') {
-  setHelp();
+  console.log("For a recursive fibonacci sequence use -r or --recursive argument followed by a number. A number greater than 45 can take a very long time to calculate.\n\n\tex: node fibonacci.js -r 45");
+  console.log("\n\nFor a iterative fibonacci sequence use -i or --iterative argument followed by a number.\n\n\tex: node fibonacci.js -i 45");
   process.exit();
 }
 if (myArgs.length == 0) {
